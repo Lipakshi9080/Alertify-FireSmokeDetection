@@ -1,0 +1,19 @@
+# ============================================================
+# Fire & Smoke Detection System - Requirements
+# ============================================================
+
+# Core deep learning & computer vision
+ultralytics>=8.0.0        # YOLOv8 model and training utilities
+opencv-python>=4.8.0      # Real-time video capture and frame processing
+torch>=2.0.0              # PyTorch backend for model inference
+torchvision>=0.15.0       # Vision transforms and dataset utilities
+numpy>=1.24.0             # Numerical array operations
+
+# Alert & notification services
+twilio>=8.0.0             # SMS alerts via Twilio API
+secure-smtplib            # Secure SMTP for Gmail email alerts
+
+# Utility
+Pillow>=9.0.0             # Image saving and manipulation
+python-dotenv>=1.0.0      # Load .env credentials securely
+requests>=2.31.0          # HTTP calls (used by ultralytics internally)
